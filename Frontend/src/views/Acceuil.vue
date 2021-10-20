@@ -20,7 +20,7 @@
                         <tr>
                             <th>ID</th>
                             <th>Nom</th>						
-                            <th>Date de création</th>
+                            <th>Date </th>
                             <th>Résponsable</th>
                             <th>Statut</th>
                             <th>Action</th>
@@ -34,8 +34,8 @@
                             <td>{{item.responsable}}</td>
                             <td><span class="status text-success">&bull;</span> {{item.statut}}</td>
                             <td>
-                                <router-link :to="{name:'Modifier',params:{id:item.id}}"  class="settings" title="Settings" data-toggle="tooltip"><i class="material-icons">&#xE8B8;</i></router-link>
-                                <a href="#" class="delete" title="Delete" data-toggle="modal"  data-target="#exampleModal"><i @click="showModal(item.id)" class="material-icons">&#xE5C9;</i></a>
+                                <router-link :to="{name:'Modifier',params:{id:item.id}}"  class="settings" title="Modifier" data-toggle="tooltip"><i class="material-icons">&#xE8B8;</i></router-link>
+                                <a href="#" class="delete" title="Effacer" data-toggle="modal"  data-target="#exampleModal"><i @click="showModal(item.id)" class="material-icons">&#xE5C9;</i></a>
                             </td>
                         </tr>
                     </tbody>

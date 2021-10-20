@@ -1,14 +1,6 @@
 {
   "task": [
     {
-      "id": 2,
-      "nom": "Estimation du modules Facturation",
-      "responsable": "CP Tolotra",
-      "description": "Créer le fichier de l'estimation du temps passer sur le projet au niveau des cients.",
-      "date": "08/7/2020",
-      "statut": "En cours"
-    },
-    {
       "id": 3,
       "nom": "Module facturation Odoo natif",
       "responsable": "Developpeur Odoo Tolotra",
@@ -66,11 +58,11 @@
     },
     {
       "id": 11,
-      "nom": "Gestion de projet",
-      "responsable": "Mendrika",
-      "description": "Création de gestion de projet",
-      "date": "2021-10-28",
-      "statut": "Bloque"
+      "nom": "odoo12",
+      "responsable": "MIoratiana",
+      "description": "Une tâche pour installer Odoo12",
+      "date": "2021-10-27",
+      "statut": "Fini"
     }
   ]
 }

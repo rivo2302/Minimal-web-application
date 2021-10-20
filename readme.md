@@ -81,8 +81,7 @@ Il vous faut aller dans un autre terminal
 
 Vérifier à ce que le port 8080 soir libre
 
-
-Vous pouvez maintenant regarder le resultat dans  `http://localhost:8080`
+Vous pouvez maintenant regarder le resultat dans  `http://localhost:8080/`
 
 # TESTE CHEZ IZARAGENCY
 
